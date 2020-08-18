@@ -1,0 +1,20 @@
+{
+  "name": "daod-database",
+  "version": "0.1.0",
+  "description": "DAOD Database module",
+  "main": "index.ts",
+  "repository": "https://github.com/FalconPilot/daod-wargame/database",
+  "author": "FalconPilot",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "envalid": "^6.0.2",
+    "mikro-orm": "^3.6.15",
+    "pg": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "typescript": "^3.9.7",
+    "yargs": "^15.4.1"
+  }
+}

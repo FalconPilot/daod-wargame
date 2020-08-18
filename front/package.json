@@ -1,0 +1,10 @@
+{
+  "name": "daod-front",
+  "version": "0.1.0",
+  "description": "DAOD Front-end aapp",
+  "main": "index.ts",
+  "repository": "https://github.com/FalconPilot/daod-wargame/front",
+  "author": "FalconPilot",
+  "license": "MIT",
+  "private": true
+}

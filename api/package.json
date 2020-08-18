@@ -1,0 +1,10 @@
+{
+  "name": "daod-api",
+  "version": "0.1.0",
+  "description": "DAOD API module",
+  "main": "index.ts",
+  "repository": "https://github.com/FalconPilot/daod-wargame/api",
+  "author": "FalconPilot",
+  "license": "MIT",
+  "private": true
+}

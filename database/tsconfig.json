@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "$entities/*": ["src/entities/*"],
+      "$migrations/*": ["src/migrations/*"],
+      "$types/*": ["src/types/*"]
+    }
+  }
+}
