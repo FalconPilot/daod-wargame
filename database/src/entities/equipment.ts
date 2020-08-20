@@ -1,7 +1,8 @@
 import { Entity, PrimaryKey, Property } from 'mikro-orm'
+import { EquipmentSlot } from '$types/equipments'
 
-@Entity({ tableName: 'users' })
-export class User {
+@Entity({ tableName: 'equipments' })
+export class Equipment {
   @PrimaryKey()
   id!: number
 
@@ -9,5 +10,5 @@ export class User {
   name!: string
 
   @Property()
-  accountId!: string
+  slot!: EquipmentSlot
 }
